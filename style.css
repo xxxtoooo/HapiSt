@@ -92,3 +92,44 @@ footer{
     padding:30px;
     background:#ffe5f3;
 }
+
+.page-title{
+    text-align:center;
+    padding:80px 20px;
+    background:#ffd9ec;
+}
+
+.page-title h2{
+    font-size:45px;
+    color:#ff4ea3;
+}
+
+.news-list{
+    width:80%;
+    margin:60px auto;
+}
+
+.news-item{
+    display:block;
+    text-decoration:none;
+    color:#333;
+    background:white;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:15px;
+    transition:.3s;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.news-item:hover{
+    transform:translateY(-5px);
+}
+
+.news-item span{
+    color:#ff69b4;
+    font-size:14px;
+}
+
+.news-item h3{
+    margin:10px 0;
+}
