@@ -133,3 +133,48 @@ footer{
 .news-item h3{
     margin:10px 0;
 }
+
+.article{
+
+width:70%;
+margin:70px auto;
+
+background:white;
+
+padding:40px;
+
+border-radius:20px;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.article span{
+
+color:#ff69b4;
+
+}
+
+.article h2{
+
+margin:15px 0 30px;
+
+font-size:36px;
+
+}
+
+.article p{
+
+line-height:2;
+
+margin-bottom:40px;
+
+}
+
+.article a{
+
+color:#ff4ea3;
+text-decoration:none;
+font-weight:bold;
+
+}
