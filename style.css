@@ -187,3 +187,63 @@ header h1 a{
 header h1 a:hover{
     color: #ff4ea3;
 }
+
+.talent-grid{
+
+width:90%;
+margin:60px auto;
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+gap:30px;
+
+}
+
+.talent-card{
+
+background:white;
+
+border-radius:20px;
+
+text-align:center;
+
+padding:20px;
+
+text-decoration:none;
+
+color:#333;
+
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.talent-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+.talent-card img{
+
+width:100%;
+
+border-radius:15px;
+
+}
+
+.talent-card h3{
+
+margin-top:15px;
+
+}
+
+.talent-card p{
+
+color:#888;
+
+margin-top:8px;
+
+}
