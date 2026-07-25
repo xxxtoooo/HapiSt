@@ -355,3 +355,16 @@ border-radius:20px;
 line-height:2;
 
 }
+
+.profile-image img{
+
+width:250px;
+height:250px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:8px solid #ff69b4;
+
+}
